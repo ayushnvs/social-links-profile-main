@@ -1,24 +1,88 @@
+html {
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
 body {
-    background-color: hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    background-color: #141414;
+    color: #ffffff;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
+#card {
+    width: 350px;
+    height: 550px;
+    background-color: #1f1f1f;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+h4 {
+    margin-bottom: 30px;
+    color: #c5f82a;
+    font-size: 0.9rem;
+    opacity: 0.65;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+button {
+    background-color: #333333;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    padding: 12px;
+    margin: 7px;
+    border-radius: 6px;
+    opacity: 0.9;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #c5f82a;
+    color: #141414;
+    font-weight: 700;
+}
+
 .attribution {
+    margin-top: 20px;
     font-size: 11px;
     text-align: center;
-    position: fixed;
-    bottom: 5px;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-.profile-card {
-    width: 350px;
-    height: 500px;
-    background-color: hsl(0, 0%, 20%);
 }
