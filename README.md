@@ -15,8 +15,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![SS](image-3.png) ![SS](image-1.png)
+![SS](image-1.png)
 ### Links
 
 - Solution URL: [Solution on Github](https://github.com/ayushnvs/social-links-profile-main)
